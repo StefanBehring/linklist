@@ -1,3 +1,12 @@
 .main {
+  background-color: var(--color-normal);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   padding: 0.5rem;
+}
+
+.main__title {
+  margin: 0;
 }

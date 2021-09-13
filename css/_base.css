@@ -13,7 +13,7 @@
 
 body {
   background-color: var(--color-primary);
-  color: var(--color-light);
+  color: var(--color-dark);
   display: grid;
   grid-template-rows: var(--header-height) auto;
   height: 100vh;
