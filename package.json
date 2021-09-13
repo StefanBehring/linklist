@@ -1,0 +1,26 @@
+{
+  "name": "linklist",
+  "version": "1.0.0",
+  "description": "A linklist project",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanBehring/linklist.git"
+  },
+  "keywords": [
+    "linklist"
+  ],
+  "author": "Stefan Behring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanBehring/linklist/issues"
+  },
+  "homepage": "https://github.com/StefanBehring/linklist#readme",
+  "dependencies": {
+    "vite": "^2.5.6"
+  }
+}
