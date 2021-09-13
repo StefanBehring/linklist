@@ -4,4 +4,30 @@
   --color-light: #dbf6e9;
   --color-normal: #9ddfd3;
   --color-dark: #31326f;
+  --header-height: 5rem;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  display: grid;
+  grid-template-rows: var(--header-height) auto;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+  width: 360px;
+}
+
+main {
+  margin-top: var(--header-height);
 }

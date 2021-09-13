@@ -1,1 +1,6 @@
 @import '_base.css';
+@import './components/header.css';
+@import './components/navigation.css';
+@import './components/main.css';
+@import './components/card.css';
+@import './components/footer.css';
