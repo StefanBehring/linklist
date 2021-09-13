@@ -25,9 +25,5 @@ header,
 main,
 footer {
   margin: 0 auto;
-  width: 360px;
-}
-
-main {
-  margin-top: var(--header-height);
+  width: 350px;
 }
