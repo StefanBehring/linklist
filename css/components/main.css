@@ -11,3 +11,8 @@
 .main__title {
   margin: 0;
 }
+
+.main__cards {
+  display: flex;
+  flex-direction: column;
+}
