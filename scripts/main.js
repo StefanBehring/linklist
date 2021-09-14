@@ -58,6 +58,7 @@ navBtnOther.addEventListener('click', () => {
 // Init
 const init = () => {
   console.log('*** APP START ***')
+  showPage('Html', dataHtml)
 }
 
 init()
