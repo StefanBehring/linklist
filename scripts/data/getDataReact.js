@@ -21,7 +21,7 @@ export const getDataReact = () => {
       info: 'A huge linklist and library on all things React',
     },
     {
-      title: 'React How To',
+      title: 'Understanding the importance of the key prop in React',
       url: 'https://dev.to/francodalessio/understanding-the-importance-of-the-key-prop-in-react-3ag7',
       info: 'Why does React need this key prop? ',
     },
