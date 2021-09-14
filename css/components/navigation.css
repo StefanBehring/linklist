@@ -1,7 +1,12 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  overflow: visible;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation--hidden {
+  display: none;
 }
 
 .navigation__button {
