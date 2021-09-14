@@ -2,6 +2,15 @@
   background-color: var(--color-light);
   border-radius: 10px;
   color: var(--color-dark);
-  margin: 0.5rem auto;
+  margin: 0.5rem;
   padding: 0.5rem;
+}
+
+.card__title {
+  margin: 0;
+  padding: 0;
+}
+
+.card__info {
+  color: var(--color-primary);
 }
