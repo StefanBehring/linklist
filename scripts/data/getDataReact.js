@@ -20,5 +20,15 @@ export const getDataReact = () => {
       url: 'https://github.com/petehunt/react-howto',
       info: 'A huge linklist and library on all things React',
     },
+    {
+      title: 'React How To',
+      url: 'https://dev.to/francodalessio/understanding-the-importance-of-the-key-prop-in-react-3ag7',
+      info: 'Why does React need this key prop? ',
+    },
+    {
+      title: 'Why React Hooks?',
+      url: 'https://ui.dev/why-react-hooks/',
+      info: 'Blog Post on the benefits of React Hooks and why they were introduced ',
+    },
   ]
 }
