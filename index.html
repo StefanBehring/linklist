@@ -5,26 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linklist</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="scripts/main.js" defer></script>
+    <script src="scripts/main.js" type="module" defer></script>
   </head>
   <body>
     <header class="header">
-      <h1 class="header__title">Linklist</h1>
-      <nav class="navigation">
-        <button class="navigation__button">HTML</button>
-        <button class="navigation__button">CSS</button>
-        <button class="navigation__button">JavaScript</button>
-        <button class="navigation__button">React</button>
-        <button class="navigation__button">Funny vids</button>
-        <button class="navigation__button">Other</button>
+      <div class="header__top">
+        <h1 class="header__title">Linklist</h1>
+        <i id="header__burger" class="fa fa-bars"></i>
+      </div>
+      <nav id="navigation" class="navigation navigation--hidden">
+        <button
+          id="goToHtml"
+          class="navigation__button navigation__button--active"
+        >
+          HTML
+        </button>
+        <button id="goToCss" class="navigation__button">CSS</button>
+        <button id="goToJavaScript" class="navigation__button">
+          JavaScript
+        </button>
+        <button id="goToReact" class="navigation__button">React</button>
+        <button id="goToFunnyVids" class="navigation__button">
+          Funny vids
+        </button>
+        <button id="goToOther" class="navigation__button">Other</button>
       </nav>
     </header>
     <main class="main">
-      <h2 class="main__title">HTML</h2>
-      <section class="card">
-        <a class="card__link" href="google.de" target="_blank">The title</a>
-        <p class="card__info">Google is a search engine. Have fun!</p>
+      <h2 id="mainTitle" class="main__title">HTML</h2>
+      <section id="mainCards" class="main__cards">
+        <section class="card">
+          <h3 class="card__title">
+            <a class="card__link" href="google.de" target="_blank">The title</a>
+          </h3>
+          <p class="card__info">Google is a search engine. Have fun!</p>
+        </section>
       </section>
     </main>
     <footer class="footer">

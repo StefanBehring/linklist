@@ -1,10 +1,9 @@
 :root {
-  /* https://colorhunt.co/palette/ffc93cdbf6e99ddfd331326f */
-  --color-primary: #ffc93c;
-  --color-light: #dbf6e9;
-  --color-normal: #9ddfd3;
-  --color-dark: #31326f;
-  --header-height: 5rem;
+  /* https://colorhunt.co/palette/d4ecdd345b63152d35112031 */
+  --color-primary: #d4ecdd;
+  --color-light: #345b63;
+  --color-normal: #152d35;
+  --color-dark: #112031;
 }
 
 * {
@@ -14,8 +13,8 @@
 body {
   background-color: var(--color-primary);
   color: var(--color-dark);
-  display: grid;
-  grid-template-rows: var(--header-height) auto;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   padding: 0;

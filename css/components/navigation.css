@@ -1,4 +1,28 @@
 .navigation {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation--hidden {
+  display: none;
+}
+
+.navigation__button {
+  background-color: var(--color-light);
+  border: 1px solid var(--color-dark);
+  color: var(--color-primary);
+  padding: 0.5rem;
+  transition: all 0.3s ease-in;
+}
+
+.navigation__button:hover {
+  background-color: var(--color-dark);
+}
+
+.navigation__button--active {
+  background-color: var(--color-light);
+  border: 1px solid var(--color-dark);
+  color: var(--color-primary);
 }
