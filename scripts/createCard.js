@@ -10,6 +10,7 @@ export const createCard = (title, url, info) => {
   const cardLink = document.createElement('a')
   cardLink.classList.add('card__link')
   cardLink.setAttribute('href', url)
+  cardLink.setAttribute('target', '_blank')
   cardLink.textContent = title
   cardTitle.appendChild(cardLink)
   const cardInfo = document.createElement('p')
