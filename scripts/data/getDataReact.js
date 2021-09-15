@@ -30,5 +30,10 @@ export const getDataReact = () => {
       url: 'https://ui.dev/why-react-hooks/',
       info: 'Blog Post on the benefits of React Hooks and why they were introduced ',
     },
+    {
+      title: 'Improving React Accessibility with Dynamic Aria-label Props',
+      url: 'https://dev.to/danielcarlman/improving-react-accessibility-with-dynamic-aria-label-props-jl7',
+      info: 'Blog Post on the benefits of React Hooks and why they were introduced ',
+    },
   ]
 }
