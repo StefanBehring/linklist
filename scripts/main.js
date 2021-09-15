@@ -1,4 +1,5 @@
 import { getDataCss } from './data/getDataCss'
+import { getDataDesign } from './data/getDataDesign'
 import { getDataFunnyVids } from './data/getDataFunnyVids'
 import { getDataHtml } from './data/getDataHtml'
 import { getDataJavaScript } from './data/getDataJavaScript'
@@ -14,6 +15,7 @@ const navBtnHtml = document.getElementById('goToHtml')
 const navBtnCss = document.getElementById('goToCss')
 const navBtnJavaScript = document.getElementById('goToJavaScript')
 const navBtnReact = document.getElementById('goToReact')
+const navBtnDesign = document.getElementById('goToDesign')
 const navBtnFunnyVids = document.getElementById('goToFunnyVids')
 const navBtnOther = document.getElementById('goToOther')
 
@@ -22,6 +24,7 @@ const dataHtml = getDataHtml()
 const dataCss = getDataCss()
 const dataJavaScript = getDataJavaScript()
 const dataReact = getDataReact()
+const dataDesign = getDataDesign()
 const dataFunnyVids = getDataFunnyVids()
 const dataOther = getDataOther()
 
@@ -45,6 +48,10 @@ navBtnJavaScript.addEventListener('click', () => {
 
 navBtnReact.addEventListener('click', () => {
   showPage('React', dataReact)
+})
+
+navBtnDesign.addEventListener('click', () => {
+  showPage('Design', dataDesign)
 })
 
 navBtnFunnyVids.addEventListener('click', () => {
