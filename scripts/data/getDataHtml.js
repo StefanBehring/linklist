@@ -25,5 +25,15 @@ export const getDataHtml = () => {
       url: 'https://www.semrush.com/blog/semantic-html5-guide/',
       info: 'A guide on how to write semantic html5 code',
     },
+    {
+      title: 'Aria-label',
+      url: 'https://www.a11y-101.com/development/aria-label',
+      info: 'Articel explains aria-label and how to use them',
+    },
+    {
+      title: '<form>',
+      url: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form',
+      info: 'MDN Web Docs about the form tag',
+    },
   ]
 }
