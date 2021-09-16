@@ -30,5 +30,15 @@ export const getDataReact = () => {
       url: 'https://ui.dev/why-react-hooks/',
       info: 'Blog Post on the benefits of React Hooks and why they were introduced ',
     },
+    {
+      title: 'react-burger-menu',
+      url: 'https://negomi.github.io/react-burger-menu/',
+      info: 'examples of burger menus',
+    },
+    {
+      title: 'react-burger-menu installation',
+      url: 'https://www.npmjs.com/package/react-burger-menu',
+      info: 'installation guide for burger menus',
+    },
   ]
 }
